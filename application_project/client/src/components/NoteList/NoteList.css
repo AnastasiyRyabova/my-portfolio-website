@@ -1,0 +1,12 @@
+.note-list{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+.block-left{
+    margin-left: 9%;
+    width: 14%;
+}
+.block-center{
+    width: 38%;
+}
