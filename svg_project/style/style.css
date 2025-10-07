@@ -1,0 +1,93 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    max-width: 1440px;
+}
+.container__block-one{
+    background-color: #FFF6ED;
+}
+
+.title{
+    margin: 0;
+    font-size: 41px;
+    font-weight: 700;
+}
+.descr{
+    margin: 0;
+}
+.block-one{
+    padding: 60px 15px 37px 15px;
+}
+
+.block-one__title{
+    text-align: center;
+}
+.block-one__cards{
+    display: flex;
+    gap: 95px;
+}
+.card-left{
+    margin-left: 30px;
+}
+.cards__title{
+    font-size: 32px;
+    margin-top: -33px;
+    margin-bottom: 8px;
+}
+.title__color{
+    color: #FF7A00;
+}
+.cards__descr{
+    width: 375px;
+    font-size: 16px;
+    line-height: 28px
+}
+.block-two{
+    display: flex;
+    padding: 65px 0px 68px 50px;
+    background-image: url('/image/elips.png');
+    background-repeat: no-repeat;
+    background-position-x: 714px;
+    background-position-y: 28px;
+}
+.block-two__title{
+    width: 693px;
+    margin-bottom: 6px;
+    line-height: 54.47px;
+    letter-spacing: 0.9px;
+}
+.block-two__descr{
+    width: 600px;
+    line-height: 28px
+}
+
+.block-two__rigth{
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+}
+.list{
+    list-style: none;
+}
+.line__one{
+    display: flex;
+    gap: 90px;
+}
+.line__two{
+    display: flex;
+    margin-left: 70px;
+    gap: 90px;
+}
+
+
+
+/* PANDA */
+.panda{
+    background-color: rgb(227, 223, 221);
+}
