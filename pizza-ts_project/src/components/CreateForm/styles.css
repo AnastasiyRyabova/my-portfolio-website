@@ -1,0 +1,14 @@
+.form-line {
+  margin-top: 20px;
+
+  & label {
+    width: 300px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+}
+
+.create-button:disabled {
+  cursor: not-allowed;
+}

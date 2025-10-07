@@ -1,0 +1,23 @@
+{
+  "name": "solutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
+  },
+  "dependencies": {
+    "card-validator": "^9.0.0",
+    "credit-card-type": "^10.0.0",
+    "email-validator": "^2.0.4",
+    "imask": "^7.3.0",
+    "redom": "^4.0.0"
+  }
+}
