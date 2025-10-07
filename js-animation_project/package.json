@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
+    "split-text": "^1.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "build": "parcel build src/index.js --out-dir dist",
+    "dev": "parcel index.html"
+  }
+}
