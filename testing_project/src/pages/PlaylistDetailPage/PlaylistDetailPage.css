@@ -1,0 +1,47 @@
+.playlistInfo {
+  padding: 10px;
+}
+.playlistInfo__title {
+  color: aqua;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+
+.playlistInfo__genre {
+  color: aqua;
+  margin: 0;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
+.playlistInfo__name {
+  color: aqua;
+  margin: 0;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
+.playlistInfo__label {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+.playlistInfoList {
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    color: aqua;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.playlistInfoList li::marker {
+  content: "—  ";
+  color: currentColor;
+}
+
