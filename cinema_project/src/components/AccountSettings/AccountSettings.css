@@ -1,0 +1,71 @@
+.account-settings{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.account-settings__info-block{
+    display: flex;
+    gap: 16px;
+}
+.account-settings__avatar{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: var(--background-disabled, rgba(255, 255, 255, 0.5));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--content-primary, rgba(255, 255, 255, 1));
+}
+.account-settings__email-icon{
+  width: 24px;
+  height: 24px;
+}
+.account-settings__label{
+    margin: 0;
+    margin-bottom: 4px;
+    color: var(--content-primary, rgba(255, 255, 255, 1));
+    font-family: Play;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.account-settings__value{
+    margin: 0;
+    color: var(--content-primary, rgba(255, 255, 255, 1));
+    font-family: Play;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.account-settings__logout-button{
+    border-radius: 28px;
+    background: rgba(103, 165, 235, 1);
+    padding: 16px 48px;
+    align-self: flex-start;
+    display: inline-block;
+    border: none;
+    color: var(--content-primary, rgba(255, 255, 255, 1));
+    font-family: Play;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+@media (max-width: 499px) {
+    .account-settings__avatar {
+    width: 48px;
+    height: 51px;
+}
+.account-settings__label {
+    font-size: 14px;
+}
+.account-settings__value {
+    font-size: 20px;
+}
+.account-settings__logout-button {
+    width: 100%;
+}
+}

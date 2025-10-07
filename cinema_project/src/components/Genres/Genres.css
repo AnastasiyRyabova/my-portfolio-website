@@ -1,0 +1,104 @@
+.genres {
+  display: flex;
+  flex-direction: column;
+  margin-top: 79px;
+  margin-bottom: 203px;
+}
+
+.genres__title {
+  margin: 0;
+  margin-bottom: 64px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Play;
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.genres__list {
+  gap: 60px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.genres__card {
+  position: relative;
+  height: 304px;
+  align-items: center;
+  text-align: center; 
+  background-size: cover;
+  background-position: center;
+  width: 287px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 24px;    
+  box-shadow: 0px 0px 80px 0px rgba(255, 255, 255, 0.33);
+  cursor: pointer;
+}
+
+.genres__overlay {
+  bottom: -229px;
+  width: 289px;
+  right: 1px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: rgba(0, 0, 0, 1);
+  border-bottom-right-radius: 24px;  
+  border-bottom-left-radius: 24px;  
+}
+
+.genres__overlay-title {
+  color: rgba(255, 255, 255, 1);
+  font-family: Play;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+@media (max-width: 768px) {
+  .genres__title {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 32px;
+  }
+
+  .genres__list {
+    gap: 24px;
+  }
+
+  .genres__card {
+    width: 220px;
+    height: 250px;
+  }
+
+  .genres__overlay {
+    width: 220px;
+  }
+}
+
+@media (max-width: 499px) {
+  .genres{
+    margin-top: 24px;
+  }
+  .genres__title {
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 39px;
+  }
+
+  .genres__list {
+    gap: 28px;
+  }
+
+  .genres__card {
+    width: 97%;
+    height: 296px;
+  }
+
+  .genres__overlay {
+    bottom: -218px;
+    width: 101%;
+  }
+}

@@ -1,0 +1,156 @@
+.login-modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.login-modal__content {
+  position: relative;
+  top: 271px;
+  width: 420px;
+  min-height: 300px;
+  max-height: 500px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 1);
+  padding: 64px 40px 64px 40px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-modal__logo {
+  width: 157px;
+  height: 35px;
+  margin-bottom: 40px;
+}
+
+.login-modal__close {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 0;
+  right: -78px;
+}
+
+.login-modal__button-login {
+  width: 100%;
+  color: rgba(255, 255, 255, 1);
+  font-family: Play;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 48px;
+  border-radius: 28px;
+  background: rgba(103, 165, 235, 1);
+  border: none;
+  margin-bottom: 24px;
+}
+
+.login-modal__button-if {
+  border: none;
+  background: none;
+  color: rgba(0, 0, 0, 1);
+  font-family: Play;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  position: absolute;
+  left: 16px;
+  width: 24px;
+  height: 24px;
+}
+
+input {
+  padding-left: 52px;
+  width: 100%;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Play;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  height: 56px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.input-bottom {
+  margin-bottom: 12px;
+}
+
+.input-bottom-2 {
+  margin-bottom: 24px;
+}
+
+.input-container input.error {
+  border: 2px solid red;
+}
+
+.input-container img.input-icon {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 768px) {
+  .login-modal__content {
+    width: 90%;
+    padding: 32px 20px;
+  }
+
+  .login-modal__logo {
+    width: 120px;
+    height: auto;
+  }
+
+  .login-modal__button-login {
+    padding: 12px 24px;
+  }
+
+  .login-modal__button-if {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 499px) {
+  .login-modal__content {
+    top: 50px;
+    width: 58%;
+    min-height: 400px;
+  }
+
+  .login-modal__close {
+    right: -50px;
+  }
+  .login-modal__close img {
+    width: 33px;
+    height: 33px;
+  }
+  input {
+    font-size: 16px;
+    height: 48px;
+  }
+}

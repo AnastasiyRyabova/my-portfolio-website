@@ -1,0 +1,8 @@
+
+body {
+  font-family: 'Play', sans-serif;
+  margin: 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(180.00deg, rgb(12, 17, 61),rgba(39.3125, 35.70885467529297, 35.70885467529297, 0.7) 100%),linear-gradient(179.63deg, rgba(39, 135, 245, 0.18),rgba(163, 147, 245, 0.18) 100%);
+}
+

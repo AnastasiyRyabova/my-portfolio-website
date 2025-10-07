@@ -1,0 +1,78 @@
+.account-page__title {
+  margin: 0;
+  margin-bottom: 64px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Play;
+  font-size: 48px;
+  font-weight: 600;
+}
+.account-section{
+  display: flex;
+  gap: 64px;
+  flex-direction: row;
+}
+.account-page__small-img{
+  display: none;
+}
+
+.account-section__title{
+  margin: 0;
+  color: rgba(255, 255, 255, 1);
+  font-family: Play;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.account-navigation{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+@media (max-width: 768px) {
+  .account-page {
+    padding: 15px;
+  }
+
+  .account-page__title {
+    font-size: 20px;
+  }
+
+  .account-page__email {
+    font-size: 14px;
+  }
+
+  .account-page__button-logout {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 499px) {
+  .account-page {
+    padding: 0;
+    margin-bottom: 176px;
+  }
+
+  .account-page__title {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+
+  .account-page__small-img{
+  display: inline-block;
+  margin-right: 9px;
+}
+.account-navigation {
+    gap: 25px;
+}
+  .account-page__email {
+    font-size: 12px;
+  }
+
+  .account-page__button-logout {
+    padding: 6px 12px;
+  }
+  .account-page__small{
+    display: none;
+  }
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+#root{
+  min-width: 320px;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 20px 80px;
+  min-height: 100vh;
+}
+
+@media (max-width: 1100px) {
+  #root{
+    padding: 12px 50px;
+  }
+}
+@media (max-width: 768px) {
+ #root{
+    padding: 8px 30px;
+  }
+}
+@media (max-width: 420px) {
+      #root {
+        padding: 22px 20px;
+    }
+}

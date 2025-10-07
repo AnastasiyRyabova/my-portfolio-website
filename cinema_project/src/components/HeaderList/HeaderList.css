@@ -1,0 +1,127 @@
+.header-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.header-list__menu {
+  display: flex;
+  gap: 25%;
+}
+
+.header-list__item {
+  color: rgba(255, 255, 255, 1);
+  font-family: Play;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  display: inline-block;
+}
+
+.header-list__item a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.header-list__item a:focus {
+  border-bottom: 1.5px solid rgba(220, 93, 252, 1);
+}
+
+.header-list__search-container {
+  position: relative;
+}
+
+.header-list__search {
+  margin-right: 12px;
+  padding: 16px 16px 16px 53px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background-color: rgba(57, 59, 60, 1);
+  background-image: url('../../image/search.png');
+  background-repeat: no-repeat;
+  background-position: 17px center;
+  background-size: 24px 24px;
+  color: white;
+}
+
+.header-list__login {
+  margin-right: auto;
+  color: rgba(255, 255, 255, 1);
+  font-family: Play;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  border: none;
+  background: none;
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dropdown-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+.button__user-account{
+  color: rgba(255, 255, 255, 1);
+  font-family: Play;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  border: none;
+  background: none;
+  padding-bottom: 8px;
+  border-bottom: 1.5px solid rgba(220, 93, 252, 1);
+}
+@media (max-width: 1120px) {
+  .header-list {
+    gap: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .header-list {
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .header-list__search {
+    width: 100%;
+  }
+
+  .header-list__login {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 499px) {
+
+  .header__search {
+    width: 0;
+  }
+
+  .header-list__item {
+    font-size: 20px;
+    
+  }
+}

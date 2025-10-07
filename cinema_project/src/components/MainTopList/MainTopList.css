@@ -1,0 +1,117 @@
+.main-top-list__title {
+  margin: 0;
+  margin-bottom: 64px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Play;
+  font-size: 41px;
+  font-weight: 600;
+  line-height: 48px;
+}
+ main{
+    margin-bottom: 120px;
+  }
+
+.main-top-list__cards {
+  display: flex;
+  gap:  60px 37px;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+.main-top-list__item {
+  width: 224px;      
+  height: 336px;   
+  position: relative;
+  border-radius: 16px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 80px 0px rgba(255, 255, 255, 0.33);
+}
+
+.main-top-list__image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 16px;
+}
+
+.main-top-list__number {
+  margin: 0;
+  position: absolute;
+  top: -14px;
+  left: -12px;
+  border-radius: 50px;
+  padding: 8px 24px;
+  background: rgba(255, 255, 255, 1);
+  color: rgba(106, 93, 194, 1);
+  font-family: Play;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  z-index: 2;
+}
+
+/* Медиа-запросы */
+@media (max-width: 1200px) {
+  .main-top-list__cards {
+    gap: 33px 4%;
+  }
+  .main-top-list__item {
+    width: 24%;
+  }
+}
+@media (max-width: 768px) {
+  .main-top-list__title {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 29px;
+  }
+
+  .main-top-list__cards {
+    gap: 20px;
+  }
+
+  .main-top-list__item {
+    width: 180px;      
+    height: 270px;   
+  }
+
+  .main-top-list__number {
+    font-size: 20px;
+    padding: 6px 16px;
+  }
+}
+
+@media (max-width: 499px) {
+  .main-top-list__title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .main-top-list__cards {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 15px;
+  }
+
+  .main-top-list__item {
+    flex-shrink: 0;
+    width: 223px;
+    height: 333px; 
+    box-shadow: none;
+  }
+  main{
+    margin-bottom: 47px;
+  }
+  .main-top-list__cards {
+    padding: 9px 9px 9px 13px;
+  }
+  .main-top-list__number {
+    font-size: 26px;
+    padding: 8px 25px;
+    top: -10px;
+    left: -9px;
+  }
+}
