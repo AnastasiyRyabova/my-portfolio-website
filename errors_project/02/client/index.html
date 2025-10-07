@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15.Обработка ошибок</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+      #loader {
+          display: none;
+      }
+      .notification {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          z-index: 1000;
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+      <h1 class="mt-4">Каталог товаров</h1>
+      <div id="loader" class="spinner-border" role="status">
+        <span class="sr-only">Загрузка...</span>
+      </div>
+      <div id="products" class="row mt-4"></div>
+      <div id="notifications"></div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
