@@ -1,0 +1,3 @@
+[submodule "shops_project"]
+	path = shops_project
+	url = https://github.com/AnastasiyRyabova/my-portfolio-website.git
