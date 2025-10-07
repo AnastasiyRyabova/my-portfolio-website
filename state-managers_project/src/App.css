@@ -1,0 +1,14 @@
+.app {
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.light {
+  background-color: #f0f0f0;
+  color: #111;
+}
+
+.dark {
+  background-color: #121212;
+  color: #eee;
+}
