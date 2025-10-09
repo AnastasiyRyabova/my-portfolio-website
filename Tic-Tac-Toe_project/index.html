@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="game-wrp">
+          <div class="game-settings">
+            <button class="button game-settings-button" data-value="3">
+              3x3
+            </button>
+            <button class="button game-settings-button" data-value="4">
+              4x4
+            </button>
+            <button
+              disabled="true"
+              class="button game-settings-button game-settings-button-5"
+              data-value="5"
+            >
+              5x5
+            </button>
+          </div>
+          <h2 class="game-name">Tic-Tac-Toe</h2>
+          <div class="game-field">
+            <div class="game-field-play-button-wrp">
+              <button
+                class="button game-field-play-button"
+                data-content="Cross"
+              >
+                <?xml version="1.0" encoding="utf-8"?>
+                <svg
+                  width="40px"
+                  height="40px"
+                  viewBox="0 0 64 64"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  aria-hidden="true"
+                  role="img"
+                  class="iconify iconify--emojione-monotone"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <path
+                    d="M62 10.571L53.429 2L32 23.429L10.571 2L2 10.571L23.429 32L2 53.429L10.571 62L32 40.571L53.429 62L62 53.429L40.571 32z"
+                    fill="#000000"
+                  ></path>
+                </svg>
+              </button>
+              <button class="button game-field-play-button" data-content="Zero">
+                <svg
+                  width="40px"
+                  height="40px"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title />
+
+                  <g id="Complete">
+                    <g id="Circle">
+                      <circle
+                        cx="12"
+                        cy="12"
+                        data-name="Circle"
+                        fill="none"
+                        id="Circle-2"
+                        r="10"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </button>
+            </div>
+            <h2 class="game-field-score"></h2>
+            <h3 class="game-field-player-turn"></h3>
+            <div class="game-field-list-wrp">
+              <ul class="game-field-list"></ul>
+            </div>
+            <button class="button game-reset-button" disabled="true">
+              reset
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

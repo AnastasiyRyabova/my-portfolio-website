@@ -1,0 +1,82 @@
+@media (max-width: 635px) {
+  .container {
+    overflow-x: hidden;
+  }
+  .game-field {
+    width: 80%;
+    height: 10vh;
+    padding: 15% 40px;
+  }
+  .game-field-modifier {
+    flex-direction: column;
+    height: 70vh;
+    max-height: 100%;
+  }
+  .game-settings {
+    margin: 0 0 -12% 0;
+  }
+  .game-field-list-wrp {
+    margin: 0 0 20px 0;
+  }
+  .game-field-score {
+    margin: 10% 0 0 0;
+  }
+  .game-field-play-button {
+    width: 100vw;
+  }
+  .game-reset-button {
+    margin: 0 0 55px 0;
+  }
+  .cell-element {
+    background-size: 80%;
+    height: 68px;
+    width: 68px;
+  }
+  .cell-element-mod-zero.cell-element::after {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    z-index: -2;
+    border: none;
+  }
+  .cell-element-mod-cross.cell-element::before {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    z-index: -2;
+    border: none;
+  }
+  .cell-element-mod-cross.cell-element::after {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    z-index: -2;
+    border: none;
+  }
+  .cell-element::after {
+    opacity: 0;
+    border: none;
+    background-color: transparent;
+  }
+  .cell-element::before {
+    opacity: 0;
+    border: none;
+    background-color: transparent;
+  }
+  .cell-element-mod-cross-2.cell-element::after {
+    left: 32px;
+    top: -10px;
+  }
+  .cell-element-mod-cross-3.cell-element::before {
+    left: 30px;
+    top: -10px;
+  }
+  .cell-element-mod-cross-4.cell-element::before {
+    left: 30px;
+    top: 0;
+  }
+  .cell-element-mod-cross-5.cell-element::before {
+    left: 30px;
+    top: 0;
+  }
+}
