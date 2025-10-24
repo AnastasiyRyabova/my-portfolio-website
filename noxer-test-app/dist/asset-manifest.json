@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4fae6df2.css",
+    "main.js": "/static/js/main.93a7d95d.js",
+    "static/media/image3.png": "/static/media/image3.0a4d75782e2d0711076e.png",
+    "static/media/image6.png": "/static/media/image6.2d6e4dba8d751255f148.png",
+    "static/media/slider.png": "/static/media/slider.c4c879bdead91bda04d9.png",
+    "static/media/image1.png": "/static/media/image1.bbf91e02bd57e09853ad.png",
+    "static/media/image2.png": "/static/media/image2.9bfca53ca32c5a58eb13.png",
+    "static/media/image4.png": "/static/media/image4.19cd3a66b22b90a4321b.png",
+    "static/media/image5.png": "/static/media/image5.a38df5f6648aa13769b3.png",
+    "static/media/sweatshirts.jpg": "/static/media/sweatshirts.cc03ddc6cf2313bb1eef.jpg",
+    "static/media/certificates.jpg": "/static/media/certificates.b94791bbbeb24446e41d.jpg",
+    "static/media/tShirt.jpg": "/static/media/tShirt.a0817ead7927378a81ed.jpg",
+    "static/media/jackets.jpg": "/static/media/jackets.2da1e735a6e1e7f41a1c.jpg",
+    "static/media/like-on.svg": "/static/media/like-on.e3d2de2d9f00727985ce91a9a17b99c4.svg",
+    "static/media/like-off.svg": "/static/media/like-off.5f616b1abea643a92d887737824a00c3.svg",
+    "static/media/catalog.svg": "/static/media/catalog.08d3e3a7d1f3dd9c7cfc37a531112dbc.svg",
+    "static/media/account.svg": "/static/media/account.658d4cd72507368335478b342d7296a7.svg",
+    "static/media/icon_tg.svg": "/static/media/icon_tg.671a0d8d24c03b980d29bb554fef4457.svg",
+    "static/media/cart.svg": "/static/media/cart.2430ae1969ee65c26aea0d5763508d7c.svg",
+    "static/media/home.svg": "/static/media/home.26535920da8121a78b6f33aaef586bc5.svg",
+    "static/media/more.svg": "/static/media/more.25b06d7d81a713a4d786fc798b50707e.svg",
+    "static/media/footer-tg.svg": "/static/media/footer-tg.8fb7097ca3bbbf730c66d8f968f6adc5.svg",
+    "static/media/search.svg": "/static/media/search.1d59488b1ce83199f0526ae0d355b1f6.svg",
+    "index.html": "/index.html",
+    "static/media/close.svg": "/static/media/close.5b74d48f6ad22e368a00319e09c45ece.svg",
+    "static/media/arrow.svg": "/static/media/arrow.6c46741f97608e3839a13c1e9317b716.svg",
+    "static/media/dotNotChoose.svg": "/static/media/dotNotChoose.d96ee2717c80ec5068baf922cccbddc8.svg",
+    "static/media/dotChoose.svg": "/static/media/dotChoose.7a3a7fdcad3afa6623bb912a6dc36f78.svg",
+    "main.4fae6df2.css.map": "/static/css/main.4fae6df2.css.map",
+    "main.93a7d95d.js.map": "/static/js/main.93a7d95d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fae6df2.css",
+    "static/js/main.93a7d95d.js"
+  ]
+}

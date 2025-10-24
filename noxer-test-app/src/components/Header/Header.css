@@ -1,0 +1,72 @@
+.header{
+  margin-bottom: 10px;
+}
+.header__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.header__close-btn {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+
+  padding: 11px 14px;
+
+  color: rgba(102, 102, 102, 1);
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 500;
+
+  border-radius: 20px;
+  backdrop-filter: blur(30px);
+  background: rgba(198, 198, 198, 0.3);
+  cursor: pointer;
+}
+
+.header__close-btn img{
+    width: 7px;
+    height: 7px;
+    margin-right: 5px;
+}
+
+.header__tg-link {
+  display: flex;
+  align-items: center;
+
+  padding: 3px 7px 3px 4px;
+
+  color: rgba(41, 41, 40, 1);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+
+  background: rgba(255, 255, 255, 1);
+  border-radius: 40px;
+  box-shadow: 0px 0px 10px 0px rgba(48, 48, 48, 0.05);
+}
+.header__tg-link img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+.header__action-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 12px;
+  gap: 12px;
+
+  border-radius: 20px;
+  backdrop-filter: blur(30px);
+  background: rgba(198, 198, 198, 0.3);
+}
+.header__action-btn img{
+    width: 12px;
+    height: 12px;
+}
